@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Text Notifications — Luxe Autos</title>
+<meta name="description" content="How Luxe Autos SMS arrival notifications work, including how to opt in and opt out.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">LUXE <span>AUTOS</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sms-notifications.html">Text Notifications</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+      <a href="sms-notifications.html#signup" class="nav-cta">Get Arrival Texts</a>
+    </nav>
+  </div>
+</header>
+
+<section style="padding-bottom:0;">
+  <div class="wrap">
+    <p class="eyebrow">SMS Notification Program</p>
+    <h1 style="max-width:680px;">Driver arrival texts, explained.</h1>
+    <p style="font-size:1.05rem; max-width:600px;">This page describes exactly what the Luxe Autos text program is, how you join it, and how you leave it.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap legal" style="max-width:760px;">
+    <div class="divider"></div>
+
+    <h2>What you'll receive</h2>
+    <p>If you opt in below, Luxe Autos will send you SMS text messages related to your ride, specifically:</p>
+    <ul>
+      <li><strong>Dispatch notice</strong> — sent when a driver is assigned and on the way to your pickup location, including an estimated time of arrival (ETA).</li>
+      <li><strong>Arrival notice</strong> — sent when your driver has arrived on site.</li>
+    </ul>
+    <p>Message frequency varies based on your bookings — you will typically receive 1–2 messages per ride, and no messages if you have no active booking. These are transactional, ride-related messages, not marketing messages.</p>
+
+    <h2>How to opt in</h2>
+    <p>Consent is collected through the form on this page. To opt in, you must:</p>
+    <ul>
+      <li>Enter your name and mobile phone number, and</li>
+      <li>Actively check the consent checkbox, which is <strong>unchecked by default</strong> and is not required to use any other part of this website.</li>
+    </ul>
+    <p>No phone number is enrolled in text notifications unless this box is checked and the form is submitted. We do not enroll numbers collected through any other channel (such as a booking form) without this same explicit, separate consent.</p>
+
+    <h2>How to opt out</h2>
+    <p>Reply <strong>STOP</strong> (or STOPALL, UNSUBSCRIBE, CANCEL, END, QUIT) to any message at any time to immediately stop receiving texts from Luxe Autos. Reply <strong>HELP</strong> or <strong>INFO</strong> for assistance, or contact us at <a href="mailto:support@luxeautos.example">support@luxeautos.example</a>. Message and data rates may apply, depending on your mobile carrier and plan. Reply <strong>START</strong> at any time to resume notifications.</p>
+
+    <h2>Example messages</h2>
+    <p>Below are the exact messages you may receive as part of this program:</p>
+    <ul>
+      <li><strong>Dispatch:</strong> "Your Luxe Autos driver, Marcus, is on the way. ETA 8 minutes."</li>
+      <li><strong>Arrival:</strong> "Your Luxe Autos driver has arrived and is waiting curbside."</li>
+      <li><strong>Opt-in confirmation:</strong> "Welcome to Luxe Autos text notifications! You'll receive a text when your driver is dispatched and when they arrive. Msg &amp; data rates may apply. Reply STOP to cancel, HELP for help."</li>
+      <li><strong>Opt-out confirmation:</strong> "You have successfully unsubscribed from Luxe Autos notifications. You will not receive further messages. Reply START to opt back in."</li>
+      <li><strong>Help response:</strong> "Luxe Autos: For help, contact support@luxeautos.example. Reply STOP to cancel."</li>
+    </ul>
+
+    <h2>Your information</h2>
+    <p>Your mobile number and opt-in status are used solely to deliver these ride notifications. No mobile information, including text messaging originator opt-in data and consent, is shared with third parties or affiliates for marketing or promotional purposes. See our <a href="privacy-policy.html">Privacy Policy</a> for full details, and our <a href="terms.html">Terms &amp; Conditions</a> for the complete program terms.</p>
+  </div>
+</section>
+
+<section id="signup" style="padding-top:0;">
+  <div class="wrap" style="max-width:560px;">
+    <div class="divider"></div>
+    <p class="eyebrow">Join the Program</p>
+    <h2>Sign up for arrival texts</h2>
+    <div class="form-panel">
+      <form id="optin-form">
+        <label for="name">Full name</label>
+        <input type="text" id="name" name="name" required placeholder="Jordan Smith">
+
+        <label for="phone">Mobile phone number</label>
+        <input type="tel" id="phone" name="phone" required placeholder="(555) 555-5555">
+
+        <div class="consent-row">
+          <input type="checkbox" id="consent" name="consent" required>
+          <p>
+            I agree to receive automated SMS text messages from <strong>Luxe Autos</strong> about my driver's dispatch and arrival, including ETA updates, at the mobile number provided. Consent is not a condition of any purchase. Message frequency varies. Msg &amp; data rates may apply. Reply <strong>STOP</strong> to cancel at any time, <strong>HELP</strong> for help. View our <a href="privacy-policy.html" target="_blank">Privacy Policy</a> and <a href="terms.html" target="_blank">Terms &amp; Conditions</a>.
+          </p>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width:100%;">Sign Up</button>
+        <p class="form-msg" id="form-msg"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="index.html">Home</a>
+      <a href="sms-notifications.html">Text Notifications</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms &amp; Conditions</a>
+    </div>
+    <p class="foot-note">© 2026 Luxe Autos. Luxe Autos provides private chauffeur transportation and SMS arrival notifications to its clients.</p>
+  </div>
+</footer>
+
+<script>
+document.getElementById('optin-form').addEventListener('submit', function(e){
+  e.preventDefault();
+  var msg = document.getElementById('form-msg');
+  var consent = document.getElementById('consent').checked;
+  if (!consent) {
+    msg.textContent = 'Please check the consent box to sign up for text notifications.';
+    msg.className = 'form-msg show';
+    return;
+  }
+  msg.textContent = 'You\'re signed up. Watch for a confirmation text shortly.';
+  msg.className = 'form-msg show ok';
+  this.reset();
+});
+</script>
+
+</body>
+</html>
